@@ -58,6 +58,7 @@ html {
   margin: 0;
   width: 100%;
   flex: 1 0 auto;
+  transition: all ease-in-out 0.5s;
 }
 
 .panel > p {
@@ -80,4 +81,20 @@ html {
 }
 .panel > *:nth-child(3) {
   transform: translateY(100%);
+}
+
+.panel.open-active > *:nth-child(1) {
+  transform: translateY(0);
+}
+
+.panel.open-active > *:nth-child(3) {
+  transform: translateY(0);
+}
+
+.panel > *:nth-child(2) {
+  height: 0;
+}
+
+.panel.open {
+  flex: 4;
 }

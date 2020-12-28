@@ -5,7 +5,7 @@ Make a flex Panel Gallery using vanilla Javascript
 # To Do
 
 - [x] Set Up Html Templates.
-- [ ] Flex the image.
-- [ ] Do some styling in letters.
-- [ ] Added click js function.
-- [ ] Change image width when user click the image.
+- [x] Flex the image.
+- [x] Do some styling in letters.
+- [x] Added click js function.
+- [x] Change image width when user click the image.
